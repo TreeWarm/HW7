@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <title>JS_HW_7_cart</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="cart.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div id="template" style="display: none;">
+            <div class="product">
+               <div class="productName"></div>
+               <img class="productImg">
+               <button class="productButtonRem"></button>
+               <div class="count"></div>
+               <button class="productButtonAdd"></button>
+               <div class="productPrice"></div>
+               <div class="sum"></div>
+               <button class="productButtonDel"></button>
+            </div>
+         </div>
+         <a class="home" href="index.html"> Продолжить покупки </a>
+         <div id="order">
+            <div id="cart" class="cart">
+            </div>
+            <div id="address" class="address" >
+               <div class="feedback">
+                  <input type="text" class="state" placeholder="город">
+                  <input type="text" class="street" placeholder="улица">
+               </div>
+            </div>
+            <h3> Комментарий </h3>
+            <div id="comment" class="comment">
+               <textarea name="Text1" cols="40" rows="5"></textarea>
+            </div>
+            <div class = "button-Box" >
+               <button id="buttonLeft">назад</button>
+               <button id="buttonRight">далее</button>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
